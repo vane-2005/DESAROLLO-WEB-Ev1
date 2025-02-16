@@ -1,0 +1,106 @@
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: #ffffff;
+    font-family: verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el logo */
+.logo {
+    width: 1300px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto; /* Mantiene la proporción del logo */
+    display: block;
+    margin: 20px auto; /* Centra el logo horizontalmente */
+}
+
+/* Estilos para el encabezado y pie de página */
+header, footer {
+    background-color: #f7c8ed;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Estilos para las secciones de contenido principal */
+main {
+    margin: 0 10%;
+}
+
+/* Estilos para los elementos h1 y h2 */
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Estilos para los párrafos */
+p {
+    background-color: rgb(236, 198, 238);
+    padding: 1em;
+    border-radius: 5px;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #300530;
+    text-decoration: none;
+    display: block;
+    margin: 0.5em 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para las imágenes */
+img {
+    display: block;
+    margin: 1em auto;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para el contenedor de imágenes */
+.image-container {
+    display: flex; /* Alinea las imágenes en fila */
+    justify-content: space-around; /* Acomoda las imágenes con espacio uniforme */
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten en múltiples líneas si es necesario */
+}
+
+/* Estilos para el formulario */
+form {
+    width: 100%; /* Ancho del formulario, ajusta según sea necesario */
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin-left: 0; /* Alinea el formulario a la izquierda */
+}
+
+/* Estilos para el título del formulario */
+form h2 {
+    text-align: left; /* Alinea el título a la izquierda */
+    margin-left: 0; /* Elimina cualquier margen adicional a la izquierda */
+}
+
+/* Estilos para las imágenes dentro del contenedor */
+.image-container img {
+    margin: 10px; /* Agrega espacio alrededor de cada imagen */
+}
+
+/* Estilos específicos para las secciones adicionales */
+.testimonials, .faq, .contact {
+    margin: 2em 0;
+}
+
+.testimonials h2, .faq h2, .contact h2 {
+    text-align: left;
+}
+
+/* Estilos para el texto en negrita */
+p b {
+    color: rgb(50, 7, 50);
+}
