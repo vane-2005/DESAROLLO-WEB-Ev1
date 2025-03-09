@@ -1,0 +1,203 @@
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: #f8dbea;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6;
+    color: #333; 
+}
+
+/* Estilos para el encabezado y pie de página */
+header, footer {
+    background-color: #f3a0c0;
+    text-align: center;
+    padding: 1.5em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+header h2, footer p {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Títulos principales */
+h1 {
+    font-size: 5rem;
+    color: #300530;
+    margin-bottom: 20px;
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #300530;
+    margin-bottom: 10px;
+}
+
+/* Estilos para las secciones de contenido principal */
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 2em;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #f0eaf000; /* Color de fondo oscuro */
+    padding: 1em 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los enlaces del menú de navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    font-size: 1.2rem;
+}
+
+nav ul li a {
+    color: #080808;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #f3a0c0;
+    color: #300530;
+    transform: scale(1.1);
+}
+
+/* Estilos adicionales para enlaces activos */
+nav ul li a.active {
+    background-color: #f3a0c0;
+    color: #300530;
+}
+
+
+
+
+/* Estilos para los enlaces */
+a {
+    color: #300530;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1em 0;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 2px solid #300530;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #300530;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Estilos para las imágenes */
+img {
+    display: block;
+    max-width: 100%;
+    margin: 1em auto;
+    border-radius: 10px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+/* Estilos para el contenedor de imágenes */
+.image-container {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para el formulario */
+form {
+    width: 100%; 
+    max-width: 600px; 
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el título del formulario */
+form h2 {
+    text-align: left; 
+    font-size: 1.8rem;
+    color: #300530;
+}
+
+/* Estilos para las imágenes dentro del contenedor */
+.image-container img {
+    margin: 10px; 
+    border-radius: 10px;
+}
+
+/* Estilos específicos para las secciones adicionales */
+.testimonials, .faq, .contact {
+    margin: 2em 0;
+    text-align: center;
+}
+
+.testimonials h2, .faq h2, .contact h2 {
+    font-size: 2rem;
+    color: #300530;
+}
+
+/* Estilos para los testimonios */
+.testimonials i {
+    font-style: italic;
+    color: #666;
+}
+
+/* Estilos para el texto en negrita */
+p b {
+    color: rgb(50, 7, 50);
+    font-weight: bold;
+}
+
+/* Agregar bordes y sombras a los formularios y botones */
+form input[type="submit"] {
+    background-color: #300530;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #f3a0c0;
+    color: #300530;
+    transform: scale(1.05);
+}
